@@ -169,12 +169,6 @@ async function handleTranslation(c: any, provider: "deepl" | "google") {
       result = await translateWithGoogle(validatedParams, { env, clientIP });
     } else {
       result = await query(validatedParams, { env, clientIP });
-
-      // ponytail: the anonymous DeepL API now rate-limits XDPL; keep the
-      // compatible endpoint available via the existing provider.
-      if (result.code === 429) {
-        result = await translateWithGoogle(validatedParams, { env, clientIP });
-      }
     }
 
     // Cache successful translations
