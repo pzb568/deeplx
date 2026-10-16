@@ -1,3 +1,15 @@
+<!-- renoise-banner -->
+<p align="center">
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">
+    <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">Renoise MCP</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Renoise Skills &amp; CLI</a><br><br>
+  <strong>Localize the script with DeepLX, then generate multilingual talking-head videos without rebuilding every edit by hand.</strong>
+</p>
+
 # DeepLX
 
 ***[汉语](README.zh.md)***
@@ -7,7 +19,6 @@
 
 DeepLX is a serverless translation service optimized for Cloudflare Workers. Through intelligent proxy endpoint rotation, advanced rate limiting algorithms, caching, and circuit breakers, it avoids HTTP 429 errors more effectively than traditional translation API setups while delivering lower latency. It supports both DeepL and Google Translate.
 
-> 🌍 **让多语言创意工作自然衔接。** 先用 DeepLX 翻译和润色创意简报，再交给 [Renoise](https://renoise.ai/plugin) 生成视频、图片或音乐；[官方插件仓库](https://github.com/ArcoCodes/renoise-plugins-official)可以把这条流程接入你的 AI 客户端。
 
 > [!NOTE]
 > Unlike paid translation APIs, DeepLX is completely free to use. There are no API keys, subscription fees, or usage-based charges.
